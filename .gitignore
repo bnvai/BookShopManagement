@@ -1,6 +1,3 @@
-# Prerequisites
-*.d
-
 # Compiled Object files
 *.slo
 *.lo
@@ -18,15 +15,19 @@
 
 # Fortran module files
 *.mod
-*.smod
 
 # Compiled Static libraries
-*.lai
-*.la
-*.a
 *.lib
+*.a
 
 # Executables
 *.exe
 *.out
 *.app
+
+# Debug files
+*.dSYM/
+
+# Dependency Directories
+bin/
+build/
